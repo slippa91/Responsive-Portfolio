@@ -1,0 +1,73 @@
+/* body {
+    background-color: salmon;
+}
+*/
+
+/* Header Box */
+.head {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    width: 100%;
+    height: 70px;
+    border-color: silver;
+    border-bottom: solid 5px #ccc;
+    background-color: #fff;
+    
+}
+
+ /* Name element */
+ .name {
+    background-color: #4aaaa5;
+    color: #FDFEFE;
+    text-align: center;
+    font-size: 40px;
+    height: 65px;
+    top:0;
+ }
+
+ /* Styling for links to "About, Project Gallery and Contact Me" */
+.pages {
+    position: absolute;
+    font-size: 16px;
+    color: silver;
+    padding-top: 25px;
+    list-style-type: none;
+}
+
+/*  Inline UL for page links */
+.pages li {
+    display: inline;
+    margin: 5px;
+}
+
+/* styling for Project Gallery link - border on sides */
+.port {
+    border-color: silver;
+    padding: 0 5px 0 5px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
+/* styling for big background box*/
+.background {
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/circles-light.png");
+    background-size: 100% auto;
+}
+
+/* styling the Footer*/
+
+.foot {
+    width: 100%;
+    height: 70px;
+    border-color: silver;
+    background-color: #666666;
+    bottom: 0;
+    border-top: 5px solid #4aaaa5;
+    border-bottom: 5px solid #ccc;
+}
+
+.crtext {
+    color: #FDFEFE;
+    text-align: center;
+    margin-top: 20px;
+}
