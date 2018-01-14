@@ -66,7 +66,7 @@
 
 /* top banner of Personal Info box */
 .aboutme {
-    height: 50px;
+    height: 45px;
     border-bottom: 2px solid #ddd;
     font-size: 25px;
     font-weight: bold;
@@ -76,7 +76,6 @@
     /*  positioning for 'about me' text */
 #am {
     font-family: "Georgia", Times, Times New Roman, serif;
-    text-align: center;
     top: 15px;
     font: #4aaaa5;
 }
@@ -98,10 +97,10 @@
     color: #777;
 }
 
-/* Contact Me Box */
+/* Connect with Me Box */
 
 .contact {
-    height: 175px;
+    height: 160px;
     background-color: #4aaaa5;
     border: 2px solid #dddddd;
     
@@ -111,16 +110,15 @@
 .connectme {
     font-family: "Georgia", Times, Times New Roman, serif;
     font-size: 18px;
-    margin-top: 20px;
     text-align: center;
-    color: #777777;
+    color: #777;
 }
 
 
-/* styling for links as a group Page links */
+/* styling for links as a group in CwM Box*/
 
  .links {
-     margin-top: 30px;
+     margin-top: 20px;
  }
  
  .logo {
@@ -177,6 +175,51 @@
     color: #FDFEFE;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* Contact Page */
+
+
+/* Contact Box */
+
+.form {
+    height: auto;
+    border: 3px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+} 
+
+/* Contact Header */
+
+.cmheader {
+    height: 45px;
+    border-bottom: 2px solid #ddd;
+ }
+
+#cm {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    top: 15px;
+}
+
+/* Contact  Input Text */
+.labeltext {
+    font-size: 16px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+}
+
+
+/* Contact Button */
+
+.btn {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    background: #4aaaa5;
+    margin-bottom: 10px;
+
 }
     
 
