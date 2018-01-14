@@ -85,7 +85,9 @@
 #image {
     height: 250px;
     width: 350px;
-    margin: 10px 35px 10px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 /* text in PIB */
@@ -147,23 +149,34 @@
     /*  positioning for 'Project Gallery' banner - styling uses .aboutme from index page */
 
 .pgheader {
-    height: 50px;
+    height: 45px;
     border-bottom: 2px solid #ddd;
  }
 
 #pg {
     font-family: "Georgia", Times, Times New Roman, serif;
-    text-align: center;
+    color: #4aaaa5;
     font-size: 25px;
     font-weight: bold;
     top: 15px;
-    font: #4aaaa5;
 }
 
 /* Picture Formatting */
 
 .portpics {
     height: 150px;
+    margin-top: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    margin: 0 auto;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: #FDFEFE;
+    font-size: 20px;
+    font-weight: bold;
 }
     
 
