@@ -11,12 +11,19 @@
 }
 
  /* Name element */
+
+ .banner {
+     padding: 0;
+ }
+
  .name {
     background-color: #4aaaa5;
     color: #FDFEFE;
     text-align: center;
     font-size: 40px;
     height: auto;
+    margin-bottom: 0;
+    
  }
 
  /* Styling for links to "About, Project Gallery and Contact Me" */
@@ -26,6 +33,7 @@
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: silver;
     padding-top: 20px;
+    padding-left: 0;
     list-style-type: none;
     text-align: center;
 }
@@ -107,7 +115,7 @@
 .contact {
     height: auto;
     background-color: #4aaaa5;
-    border: 2px solid #dddddd;
+    border: 3px solid #ccc;
     
 }
  
@@ -115,8 +123,8 @@
 .connectme {
     font-family: "Georgia", Times, Times New Roman, serif;
     border-bottom: 2px solid #ddd;
-    font-size: 25px;
-    padding-left: 30px;
+    font-size: 22px;
+    padding-left: 25px;
     margin-top: 2px;
     color: #FDFEFE;
 }
@@ -125,10 +133,8 @@
 
  .links {
      margin-top: 10px;
-     padding-left: 45px;
-
-
- }
+     padding-left: 30px;
+    }
  
  .logo {
      height: 45px;
@@ -136,12 +142,11 @@
      margin: 3px;
  }
 
-
 /*  Inline Links */
 .links li {
     display: inline-block;
-
 }
+
 
 /* Project Gallery Page */
 
@@ -174,12 +179,14 @@
 .portpics {
     height: 150px;
     margin-top: 10px;
+    width: 75%;
+    margin-left: 12.5%;
 }
 
 .centered {
     position: absolute;
     top: 60%;
-    left: 22%;
+    left: 30%;
     margin: 0 auto;
     font-family: "Georgia", Times, Times New Roman, serif;
     color: #FDFEFE;
@@ -241,9 +248,8 @@
     width: 100%;
     height: 70px;
     border-color: silver;
-    background-color: #666666;
+    background-color: #666;
     bottom: 0;
-    border-top: 5px solid #4aaaa5;
     border-bottom: 5px solid #ccc;
 }
 
