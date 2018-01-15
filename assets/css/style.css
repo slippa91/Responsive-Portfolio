@@ -3,7 +3,7 @@
 .head {
     font-family: "Georgia", Times, Times New Roman, serif;
     width: 100%;
-    height: 70px;
+    height: auto;
     border-color: silver;
     border-bottom: solid 5px #ccc;
     background-color: #fff;
@@ -16,24 +16,25 @@
     color: #FDFEFE;
     text-align: center;
     font-size: 40px;
-    height: 65px;
-    top:0;
+    height: auto;
  }
 
  /* Styling for links to "About, Project Gallery and Contact Me" */
 .pages {
-    position: absolute;
+
     font-size: 16px;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: silver;
-    padding-top: 25px;
+    padding-top: 20px;
     list-style-type: none;
+    text-align: center;
 }
 
 /*  Inline UL for page links */
 .pages li {
     display: inline;
-    margin: 5px;
+    margin: 3px;
+    align-content: center;
 }
 
 /* styling for Project Gallery link - border on sides */
@@ -68,7 +69,7 @@
 .aboutme {
     height: 45px;
     border-bottom: 2px solid #ddd;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: #4aaaa5;
     }
@@ -100,7 +101,7 @@
 /* Connect with Me Box */
 
 .contact {
-    height: 160px;
+    height: auto;
     background-color: #4aaaa5;
     border: 2px solid #dddddd;
     
@@ -109,28 +110,29 @@
 /* style for Connect with me Text box */
 .connectme {
     font-family: "Georgia", Times, Times New Roman, serif;
-    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+    font-size: 25px;
     text-align: center;
-    color: #777;
+    margin-top: 2px;
+    color: #FDFEFE;
 }
-
 
 /* styling for links as a group in CwM Box*/
 
  .links {
-     margin-top: 20px;
+     margin-top: 10px;
  }
  
  .logo {
-     height: 50px;
-     width: 50px;
+     height: 45px;
+     width: 45px;
  }
 
 
 /*  Inline Links */
 .links li {
-    display: inline;
-    margin: 5px;
+    display: inline-block;
+    margin: 3px;
 }
 
 /* Project Gallery Page */
@@ -199,7 +201,7 @@
 #cm {
     font-family: "Georgia", Times, Times New Roman, serif;
     color: #4aaaa5;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     top: 15px;
 }
@@ -216,7 +218,8 @@
 
 .btn {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    color: #777;
+    color: #FDFEFE;
+    font-weight: bold;
     background: #4aaaa5;
     margin-bottom: 10px;
 
