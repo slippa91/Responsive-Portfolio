@@ -3,12 +3,13 @@
 .head {
     font-family: "Georgia", Times, Times New Roman, serif;
     width: 100%;
+    margin: 0 auto;
     height: auto;
     border-color: silver;
     border-bottom: solid 5px #ccc;
     background-color: #fff;
-    
 }
+
 
  /* Name element */
 
@@ -58,6 +59,7 @@
 /* styling for big background box*/
 .background {
     width: 100%;
+    margin: 0 auto;
     height: auto;
     background-image: url("../images/circles-light.png");
     background-size: 100% auto;
@@ -247,6 +249,7 @@
 
 .foot {
     width: 100%;
+    margin: 0 auto;
     height: 70px;
     border-color: silver;
     background-color: #666;
